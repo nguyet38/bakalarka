@@ -1,0 +1,52 @@
+device>
+  <versionStamp>{7971 Aug 06 2008 14:23:48}</versionStamp>
+  <devicePool>
+    <dateTimeSetting>
+       <dateTemplate>D.M.Y</dateTemplate>
+       <timeZone>Central Europe Standard/Daylight Time</timeZone>
+       <olsonTimeZone>Etc/GMT</olsonTimeZone>
+    </dateTimeSetting>
+    <callManagerGroup>
+       <members>
+          <member priority="0">
+             <callManager>
+                <ports>
+                   <ethernetPhonePort>2001</ethernetPhonePort>
+                </ports>
+                <processNodeName>10.0.0.1</processNodeName>
+             </callManager>
+          </member>
+       </members>
+    </callManagerGroup>
+  </devicePool>
+  <loadInformation></loadInformation>
+ <directoryURL></directoryURL>
+ <idleURL></idleURL>
+ <idleTimeout>30</idleTimeout>
+ <informationURL></informationURL>
+ <messagesURL></messagesURL>
+ <servicesURL>http://10.0.0.1/menu.xml</servicesURL>
+ <userLocale>
+   <name>cs_CS</name>
+   <langCode>cs</langCode>
+ </userLocale>
+ <networkLocale>Czech_Republic</networkLocale>
+ <networkLocaleInfo>
+     <name>Czech_Republic</name>
+     <version>4.1.0(2)</version>
+ </networkLocaleInfo>
+ <vendorConfig>
+   <settingsAccess>1</settingsAccess>
+   <autoSelectLineEnable>1</autoSelectLineEnable>
+   <autoCallSelect>1</autoCallSelect>
+   <ehookEnable>1</ehookEnable>
+   <g722CodecSupport>2</g722CodecSupport>
+   <headsetWidebandUIControl>0</headsetWidebandUIControl>
+   <handsetWidebandUIControl>0</handsetWidebandUIControl>
+   <headsetWidebandEnable>0</headsetWidebandEnable>
+   <handsetWidebandEnable>1</handsetWidebandEnable>
+ </vendorConfig>
+ <advertiseG722Codec>1</advertiseG722Codec>
+ <phonePersonalization>1</phonePersonalization>
+ <singleButtonBarge>1</singleButtonBarge>
+</device>
